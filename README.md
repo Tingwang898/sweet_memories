@@ -91,11 +91,11 @@ git remote add origin https://github.com/<your-user>/<your-repo>.git
 1. 打开 Netlify。
 2. 选择 Add new site → Import an existing project。
 3. 授权并选择 GitHub 仓库。
-4. Netlify 会读取根目录 `netlify.toml`。
+4. Netlify 会读取 `footprint-prototype/netlify.toml`。
 5. 确认构建配置：
    - Base directory: `footprint-prototype`
    - Build command: `pnpm run build`
-   - Publish directory: `footprint-prototype/dist/client`
+   - Publish directory: `dist/client`
 6. 在 Site configuration → Environment variables 添加：
    - `VITE_SUPABASE_URL`
    - `VITE_SUPABASE_ANON_KEY`

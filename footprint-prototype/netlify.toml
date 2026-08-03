@@ -1,5 +1,4 @@
 [build]
-  base = "footprint-prototype"
   command = "pnpm run build"
   publish = "dist/client"
 
